@@ -1,17 +1,22 @@
-# Bike Sharing Analytics Dashboard 🚲
+# Bike Sharing Analytics Dashboard ✨
 
-Dashboard interaktif berbasis Streamlit untuk menganalisis pola penyewaan sepeda Capital Bikeshare berdasarkan waktu operasional, tipe pengguna (casual vs registered), musim, serta dampak kondisi cuaca.
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
 
-## Struktur Direktori
-```text
-submission/
-├── dashboard/
-│   ├── dashboard.py
-│   └── main_data.csv
-├── data/
-│   ├── day.csv
-│   └── hour.csv
-├── notebook.ipynb
-├── README.md
-├── requirements.txt
-└── url.txt
+## Setup Environment - Shell/Terminal
+```
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+## Run steamlit app
+```
+streamlit run dashboard/dashboard.py
+```
