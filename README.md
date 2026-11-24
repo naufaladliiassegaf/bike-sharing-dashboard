@@ -1,4 +1,4 @@
-# Bike Sharing Analytics Dashboard ✨
+# Bike Sharing Analytics Dashboard
 
 ## Setup Environment - Anaconda
 ```
